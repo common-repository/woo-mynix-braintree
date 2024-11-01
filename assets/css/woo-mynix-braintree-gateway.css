@@ -1,0 +1,260 @@
+/**
+ * ################################################################################
+ * Woo Braintree Payment
+ * 
+ * Copyright 2016 Eugen Mihailescu <eugenmihailescux@gmail.com>
+ * 
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License along with
+ * this program.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * ################################################################################
+ * 
+ * Short description:
+ * URL: http://woo-braintree.mynixworld.info
+ * 
+ * Git revision information:
+ * 
+ * @version : 0.2-1 $
+ * @commit  : d1f5967ad241079d6f213ec43cb555f2430423c8 $
+ * @author  : eugenmihailescu <eugenmihailescux@gmail.com> $
+ * @date    : Thu Dec 8 12:16:22 2016 +0100 $
+ * @file    : woo-mynix-braintree-gateway.css $
+ * 
+ * @id      : woo-mynix-braintree-gateway.css | Thu Dec 8 12:16:22 2016 +0100 | eugenmihailescu <eugenmihailescux@gmail.com> $
+*/
+
+@CHARSET "UTF-8";
+div .card-badge{
+margin-left: 0.2em;
+}
+input #woo-mynix-braintree-gateway-card-number, .visa-badge, .mastercard-badge, .amex-badge, .discover-badge, .jcb-badge, .dinersclub-badge, .maestro-badge, .paypal-badge {
+background-repeat: no-repeat !important;
+background-position: right 0px;
+background-image: url('../img/cc-badge.png');
+}
+.visa-badge, .mastercard-badge, .amex-badge, .discover-badge, .jcb-badge, .dinersclub-badge, .maestro-badge, .paypal-badge {
+width: 30px;
+height: 22px;
+display: inline-block;
+}
+.disabled {
+-webkit-filter: grayscale(1);
+filter: grayscale(1);
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+filter: alpha(opacity = 50);
+-moz-opacity: 0.5;
+-khtml-opacity: 0.5;
+opacity: 0.5;
+}
+input #woo-mynix-braintree-gateway-card-number.visa, .visa-badge {
+background-position: right -22px;
+}
+input #woo-mynix-braintree-gateway-card-number.mastercard, .mastercard-badge {
+background-position: right -44px;
+}
+input #woo-mynix-braintree-gateway-card-number.amex, .amex-badge {
+background-position: right -66px;
+}
+input #woo-mynix-braintree-gateway-card-number.discover, .discover-badge {
+background-position: right -88px;
+}
+input #woo-mynix-braintree-gateway-card-number.jcb, .jcb-badge {
+background-position: right -110px;
+}
+input #woo-mynix-braintree-gateway-card-number.dinersclub, .dinersclub-badge {
+background-position: right -132px;
+}
+input #woo-mynix-braintree-gateway-card-number.maestro, .maestro-badge {
+background-position: right -154px;
+}
+input #woo-mynix-braintree-gateway-card-number.paypal, .paypal-badge {
+background-position: right -176px;
+}
+.visa-badge:HOVER, .mastercard-badge:HOVER, .amex-badge:HOVER, .discover-badge:HOVER, .jcb-badge:HOVER, .dinersclub-badge:HOVER, .maestro-badge:HOVER, .paypal-badge:HOVER
+{
+border: 1px solid transparent;
+cursor: help;
+-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+.help_tip {
+cursor: help;
+}
+#tiptip_holder {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99999
+}
+#tiptip_arrow_inner {
+margin-top: -7px;
+margin-left: -6px;
+border-top-color: #464646
+}
+#tiptip_holder.tip_bottom {
+padding-top: 5px
+}
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+margin-top: -5px;
+margin-left: -6px;
+border-bottom-color: #464646
+}
+#tiptip_content {
+font-size: 11px;
+color: #fff;
+padding: .5em;
+background: #464646;
+-webkit-border-radius: 3px; 
+-moz-border-radius: 3px; 
+border-radius: 3px;
+-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, .1);
+-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 3px rgba(0, 0, 0, .1);
+text-align: center;
+max-width: 150px
+}
+#tiptip_arrow, #tiptip_arrow_inner {
+position: absolute;
+border-color: transparent;
+border-style: solid;
+border-width: 6px;
+height: 0;
+width: 0
+}
+.mynix-ccv {
+display: inline-block;
+color: inherit;
+cursor: help;
+}
+.mynix-ccv:HOVER {
+text-decoration: underline;
+}
+#woo-mynix-braintree-gateway-cc-form{
+clear:both;
+margin-top:10px !important;
+}
+.pci-badge,.pci-badge td{
+border:none;
+}
+.pci-badge{
+display: inline-table;
+background-color:none;
+margin-top: 10px;
+width: 100%;
+}
+.pci-badge-icon{
+width: 0px;
+padding: 0px;
+width: auto;
+height: auto; 
+}
+.pci-badge-icon img{
+max-height: 100% !important;
+}
+.pci-badge-text{
+padding-left: 10px;
+vertical-align: middle;
+}
+#woo-mynix-braintree-gateway-card-number.braintree-hosted-fields-focused,#woo-mynix-braintree-gateway-card-expiry.braintree-hosted-fields-focused,#woo-mynix-braintree-gateway-card-cvc.braintree-hosted-fields-focused {
+-moz-box-shadow: 2px 0px 0px #00ADEE inset;
+-webkit-box-shadow: 2px 0px 0px #00ADEE inset;
+box-shadow: 2px 0px 0px #00ADEE inset;
+}
+#woo-mynix-braintree-gateway-card-number.braintree-hosted-fields-invalid,#woo-mynix-braintree-gateway-card-expiry.braintree-hosted-fields-invalid,#woo-mynix-braintree-gateway-card-cvc.braintree-hosted-fields-invalid {
+-moz-box-shadow: 2px 0px 0px tomato inset;
+-webkit-box-shadow: 2px 0px 0px tomato inset;
+box-shadow: 2px 0px 0px tomato inset;
+}
+#woo-mynix-braintree-gateway-card-number.braintree-hosted-fields-valid,#woo-mynix-braintree-gateway-card-expiry.braintree-hosted-fields-valid,#woo-mynix-braintree-gateway-card-cvc.braintree-hosted-fields-valid {
+-moz-box-shadow: 2px 0px 0px #0F834D inset;
+-webkit-box-shadow: 2px 0px 0px #0F834D inset;
+box-shadow: 2px 0px 0px #0F834D inset;
+}
+.has-paypal{
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+filter: alpha(opacity=100) !important;
+-moz-opacity: 1 !important;
+-khtml-opacity: 1 !important;
+opacity: 1 !important;
+background-color:transparent !important;
+}
+.has-paypal span, .has-paypal button{
+color:#FFF !important;
+}
+.woo-mynix-braintree-gateway-paypal-container-wrapper:HOVER{
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+filter: alpha(opacity=100);
+-moz-opacity: 1;
+-khtml-opacity: 1;
+opacity: 1;
+}
+.woo-mynix-braintree-gateway-paypal-container-wrapper{
+word-break: break-all;
+transition: opacity .25s ease-in-out;
+-moz-transition: opacity .25s ease-in-out;
+-webkit-transition: opacity .25s ease-in-out;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+filter: alpha(opacity=20);
+-moz-opacity: 0.2;
+-khtml-opacity: 0.2;
+opacity: 0.2;
+}
+#woo-mynix-braintree-gateway-paypal-container img{
+max-height:44px !important;
+height:44px !important;
+background-color: transparent !important;
+}
+#woo-mynix-braintree-gateway-paypal-container a{
+margin-left: auto;
+margin-right: auto;
+}
+#woo-mynix-braintree-gateway-paypal-container{
+margin-bottom: 10px;
+background-color: rgb(1, 156, 222);
+-webkit-border-radius: 5px; 
+-moz-border-radius: 5px; 
+border-radius: 5px;
+}
+.paypal-button{
+background-color: transparent !important;
+-moz-box-shadow: none !important;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+}
+.paypal-button-content,.paypal-button-content:HOVER{
+border:none !important;
+-webkit-border-radius: none !important; 
+-moz-border-radius: none !important;
+border-radius:none !important;
+}
+.paypal-button-tag-content{
+color:white !important;
+}
+#braintree-paypal-button{
+width: 100% !important;
+}
+#braintree-paypal-button>img{
+margin-left: auto !important;
+margin-right: auto !important;
+float: inherit !important;
+width: auto !important;
+}
+.woo-mynix-braintree-gateway-card-field{
+-moz-appearance:textfield !important;
+-webkit-appearance: none !important;
+}
+.mynix-blockUI{
+width: 30% !important;
+left: 35% !important;
+}

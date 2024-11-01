@@ -1,0 +1,193 @@
+/**
+ * ################################################################################
+ * Woo Braintree Payment
+ * 
+ * Copyright 2016 Eugen Mihailescu <eugenmihailescux@gmail.com>
+ * 
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License along with
+ * this program.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * ################################################################################
+ * 
+ * Short description:
+ * URL: http://woo-braintree.mynixworld.info
+ * 
+ * Git revision information:
+ * 
+ * @version : 0.2-1 $
+ * @commit  : d1f5967ad241079d6f213ec43cb555f2430423c8 $
+ * @author  : eugenmihailescu <eugenmihailescux@gmail.com> $
+ * @date    : Thu Dec 8 12:16:22 2016 +0100 $
+ * @file    : woo-mynix-braintree-gateway-admin.css $
+ * 
+ * @id      : woo-mynix-braintree-gateway-admin.css | Thu Dec 8 12:16:22 2016 +0100 | eugenmihailescu <eugenmihailescux@gmail.com> $
+*/
+
+@CHARSET "UTF-8";
+.woo-mynix-braintree-gateway{
+background: -webkit-linear-gradient(-180deg, #A46496, #fff); 
+background: -o-linear-gradient(-180deg, #A46496, #fff); 
+background: -moz-linear-gradient(-180deg, #A46496, #fff); 
+background: linear-gradient(-180deg, #A46496, #fff); 
+-moz-box-shadow:    0px 0px 0px 3px rgba(0, 0, 0, 0.05);
+-webkit-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.05);
+box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.05);
+position: relative;
+margin: 1em;
+}
+.woo-mynix-braintree-gateway img {
+width: 100px;
+height: 100px;
+}
+.woo-mynix-braintree-gateway,.mynix-settings-group-inner,#get-started .woo-mynix-braintree-gateway span{
+color: #FFF;
+}
+#get-started .woo-mynix-braintree-gateway span {
+text-shadow: 0px 1px 0px #A46496;
+}
+#get-started span.main {
+font-weight: bold;
+font-size: 1.4em;
+}
+#get-started span {
+display: block;
+text-shadow: 1px 1px 0px #FFF;
+color: #595959;
+line-height: 1.5em;
+}
+.chosen-choices,.chzn-choices,.mynix-custom-fieldeditor,.mynix-settings-group-outer,.mynix-button-primary{
+-moz-box-shadow:inherit !important;
+-webkit-box-shadow:inherit !important;
+box-shadow:inherit !important;
+text-shadow:none !important;
+}
+.chosen-choices,.chzn-choices{
+max-width: 12em;
+}
+.mynix-custom-fieldeditor,.mynix-custom-fieldeditor td,.mynix-custom-fieldeditor input,.chosen-container, .chosen-container-multi,.chzn-container, .chzn-container-multi,.chosen-choices,.chzn-choices{
+width: auto !important;
+}
+.mynix-custom-fieldeditor,.mynix-settings-group-outer{
+background-color: white;
+}
+.woo-mynix-braintree-gateway,.mynix-settings-group-inner,.mynix-button-primary,.mynix-button-primary:ACTIVE{
+background-color: #A46496 !important;
+}
+.woo-mynix-braintree-gateway,.mynix-custom-fieldeditor,.mynix-settings-group-inner,.chosen-choices,.chzn-choices{
+padding: 5px !important;
+}
+.mynix-settings-group-outer,.mynix-settings-group-inner{
+-webkit-border-radius: 15px 15px 0px 0px; 
+-moz-border-radius: 15px 15px 0px 0px; 
+border-radius: 15px 15px 0px 0px;
+}
+.woo-mynix-braintree-gateway,.mynix-custom-fieldeditor,.chosen-choices,.chzn-choices{
+-webkit-border-radius: px; 
+-moz-border-radius: 5px; 
+border-radius:5px;
+}
+.mynix-custom-fieldeditor{
+border: 1px solid #AAA;
+}
+.mynix-custom-fieldeditor th, .mynix-custom-fieldeditor td {
+padding: 0px;
+width: 0px;
+}
+.mynix-custom-fieldeditor input[type="button"]{
+width:auto !important;
+}
+.mynix-custom-fieldeditor label {
+white-space: pre;
+}
+.mynix-settings-group-between{
+padding: 2px;
+border: 0px none;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+.mynix-button-primary{
+border-color: white !important;
+-moz-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+-webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25) !important;
+}
+.mynix-button-primary:HOVER {
+background-color: #8B5881 !important;
+}
+.chosen-choices li input,.chzn-choices li input{
+padding:0px !important;
+}
+.mynix-settings-group{
+background: #FFF none repeat scroll 0% 0%;
+border-left: 4px solid #FFF;
+-moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+border-color: #A46496;
+margin: 5px 0px 15px;
+margin-top: 10px;
+padding: 10px;
+display: block;
+}
+.mynix-settings-group td:first-child{
+text-shadow: 2px 2px #CCC;
+}
+.mynix-settings-group td:nth-child(2){
+font-size: 14px;
+padding-left: 10px;
+font-weight: normal;
+font-style: italic;
+}
+.mynix-tab-wrapper{
+background-color: white;
+border: 1px solid #ccc;
+border-bottom:none; 
+}
+.mynix-tab-wrapper td{
+padding-bottom: 0px !important;
+margin-bottom: 0px !important;
+}
+.mynix-tab-content{
+background-color: #fff;
+border:1px solid #ccc;
+border-top:none;
+}
+.nav-tab-active{
+border-bottom:none;
+background-color: #fff;
+margin-top: 1px;
+}
+.nav-tab-active:hover{
+border-bottom-style: none;	
+}
+.nav-mynix-tab{
+-webkit-border-radius: 10px; 
+-moz-border-radius: 10px; 
+border-radius:10px;
+-webkit-border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius: 0px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 0px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+.mynix-settings-tabs-description{
+padding-top: 0px !important;
+margin-top: 0px !important
+}
+#nav-tab-description{
+display: inline-block; 
+color:#0073AA; 
+padding-left: 10px; 
+padding-right: 10px;
+}
